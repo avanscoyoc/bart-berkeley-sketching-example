@@ -15,9 +15,9 @@ NUM_ARGS = 2
 USAGE_STR = 'USAGE: python draw_berkeley_bart.py input_loc output_loc'
 
 DEFAULT_DATA_LOCATION = 'berkeley_trips.csv'
-BG_COLOR = '#00FF00'
+BG_COLOR = '#EAEAEA'
 FG_COLOR = '#333333'
-TICK_COLOR = '#FFFFFF'
+TICK_COLOR = '#00FF00'
 TITLE = 'Bart trips from Downtown Berkeley to other stations in March 2024.'
 WIDTH = 600
 HEIGHT = 600
