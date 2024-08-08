@@ -230,8 +230,8 @@ def main():
     """Main function either running in browser, desktop, or command line."""
     if len(sys.argv) == 1:
         data_loc = DEFAULT_DATA_LOCATION
-        output_loc = None
-        interactive = True
+        output_loc = 'berkeley_trips.png'
+        interactive = False
     elif len(sys.argv) == NUM_ARGS + 1:
         data_loc = sys.argv[1]
         output_loc = sys.argv[2]
